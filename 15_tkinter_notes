@@ -1,0 +1,19 @@
+# Basics Tkinter...
+    root.geometry('200x300')
+
+Using padx or pady in (.pack or .grid) moves the widget to your desired location on the screen.
+Using padx or pady in (the main widget) increases the size of the particular widget.
+Using ipadx or ipady in (.pack or .grid) increases the size of the particular widget.
+Note.. you cant use ipadx or ipady in (the main widget).
+
+
+# Images...
+To add images to tkinter:
+    from PIL import ImageTK, Image.
+    then....
+    >>> open image with the Image.open().
+    >>> Use the ImageTk.PhotoImage to read the open photo.
+    >>> place image on a widget.
+    >>> you can resize with (.resize((200,300)))
+
+
